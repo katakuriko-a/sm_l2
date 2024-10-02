@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/*クラス定義(ここから下にクラスを追加して下さい)*/
+footer {
+  background-color: #666;
+  align-items: center;
+  position: relative;
+  padding: 72px 52px;
+}
+.footer-main {
+  padding: 72px 20px 52px;
+  display: flex;
+}
+.footerbox {
+  align-items: self-end;
+}
+.footer-img {
+  margin-right: 104px;
+  width: 153px;
+}
+.footer-link {
+  color: #fff;
+}
+.footer-links li {
+  margin-bottom: 16px;
+}
+.footer-contact {
+  background-color: #8fc54a;
+  color: #fff;
+  padding: 15px 64px;
+  display: block;
+  margin-top: 48px;
+  transition: all 0.5s;
+}
+.footer-contact:hover {
+  opacity: 0.7;
+}
+.footer-sent {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 64px;
+  padding-right: 15px;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+.page-top {
+  color: #8fc54a;
+  background-color: #fff;
+  width: 52px;
+  height: 52px;
+  position: fixed;
+  bottom: 30px;
+  right: 36px;
+  border-radius: 50%;
+  font-size: 15px;
+  border: solid 1px #8fc54a;
+  z-index: 100;
+  cursor: pointer;
+  transition: all 0.5s;
+  opacity: 0;
+  transform: translateY(-15px);
+}
+.page-top.activ {
+  opacity: 1;
+  transform: translateY(0);
+}
+.page-top:hover {
+  background-color: #5cb123;
+  color: #fff;
+}

@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/*クラス定義(ここから下にクラスを追加して下さい)*/
+
+main {
+  margin-top: 100px;
+}
+.main-title {
+  background-color: #8fc54a;
+  height: 300px;
+  width: 100%;
+}
+.main-sent {
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 300px;
+}
+.step-inner {
+  width: 850px;
+  padding: 65px 0;
+  margin: 0 auto;
+}
+.step-inner::before {
+  content: "";
+  position: absolute;
+  left: 400px;
+  width: 10%;
+  height: 140%;
+  background: linear-gradient(
+    120.05deg,
+    rgba(245, 255, 240, 0.7) -1.62%,
+    rgba(250, 255, 228, 0.7) 54.71%
+  );
+}
+
+.step-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+  position: relative;
+}
+.p-box {
+  position: absolute;
+  top: -10px;
+  right: -35px;
+}
+.h-box {
+  width: 60%;
+  padding-top: 25px;
+  padding-left: 55px;
+}
+.h-title {
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 15px;
+  position: relative;
+}
+.h-title::after {
+  content: "";
+  height: 3px;
+  width: 10%;
+  background-color: #8fc54a;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.h-sentence {
+  padding-top: 25px;
+  font-size: 15px;
+}
+.h-sentence a {
+  color: #1176d4;
+}
+.step-sentence {
+  font-size: 14px;
+  font-weight: bold;
+}
+.step-number {
+  font-size: 56px;
+  font-weight: bold;
+}
+.step-img {
+  width: 250px;
+  padding-top: 36px;
+  position: relative;
+}
+.step-img img {
+  width: 100%;
+}
